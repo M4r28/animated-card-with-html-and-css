@@ -23,9 +23,32 @@ function App() {
               <img src={random2} alt=""/>
               <img src={random3} alt=""/>
             </div>
+          </div>
         </div>
-        </div>
-        <div className="back"></div>
+          <div className="back">
+            <div className="streaming-info">
+              <p className="game-stat">559k<span>Watching</span></p> 
+              <p className="game-stat">25.8k<span>Streams</span></p>                   
+            </div>
+            <button className="btn">See more streams</button>
+            <div className="streamers">
+              <div className="streamers">
+                <p className="name">Gamer 1</p>
+                <p className="number">36.1k</p>
+              </div>
+              <div className="streamers">
+                <p className="name">Gamer 2</p>
+                <p className="number">35.1k</p>
+              </div>
+              <div className="streamers">
+                <p className="name">Gamer 3</p>
+                <p className="number">34.5k</p>
+              </div>
+            </div>
+          </div>
+          <div className="background">
+            
+          </div>
       </div>
     </div>
   );

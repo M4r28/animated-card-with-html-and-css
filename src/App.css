@@ -39,15 +39,23 @@ img {
 
 .streamers {
   display: flex;
+}
 
-  img {
-    width: 2em;
+.front .streamers img {
+  width: 2em;
     height: 2em;
     border-radius: 50%;
-  }
 }
-.front {
 
+.front .stats{
+display: flex;
+justify-content: space-between;
+align-items: center;
+/* border: 1px solid red; */
+}
+
+.front .name {
+  margin: .75em 0;
 }
 
 

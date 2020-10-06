@@ -13,9 +13,45 @@
 }
 
 body {
+  font-family: sans-serif;
   min-height: 100vh;
   display: grid;
   place-items: center;
   background: var(--clr-dark);
   color: var(--clr-light);
 }
+
+h1,
+h2,
+h3,
+p{
+  margin:0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.game {
+  position: relative;
+  width: 12.5em;
+}
+
+.streamers {
+  display: flex;
+
+  img {
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+  }
+}
+.front {
+
+}
+
+
+.back {
+  display: none;
+}
+
